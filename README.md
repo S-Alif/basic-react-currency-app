@@ -1,8 +1,11 @@
-# React + Vite
+# Basic react currency app
+This is a basic react currency app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### links
+- [live demo](https://react-currency-app.netlify.app/)
+- [github]()
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to run the program
+- Clone or download the repository
+- Navigate to the folder
+- In the terminal run "npm install", then run "npm run dev"
