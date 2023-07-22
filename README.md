@@ -3,7 +3,7 @@ This is a basic react currency app
 
 ### links
 - [live demo](https://react-currency-app.netlify.app/)
-- [github]()
+- [github](https://github.com/S-Alif/basic-react-currency-app)
 
 ### How to run the program
 - Clone or download the repository
