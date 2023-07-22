@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css');
+
+
+
+html{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'inter', sans-serif;
+  overflow-x: hidden;
+  background: #a0ff94;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section .content{
+  width: 500px;
+  max-width: calc(100% - 10px);
+}
+
+.content h4{
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.content .convert-section{
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+}
+
+.convert-section .currencies .indicator,
+.convert-section .currencies .currency{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currencies p{
+  font-size: 1rem!important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.currencies .to{
+  text-align: right;
+}
